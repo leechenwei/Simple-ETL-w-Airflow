@@ -19,16 +19,16 @@ PostgreSQL is used as the data warehouse, running inside Docker.<br>
 <h2>📋 Prerequisites</h2>
 1.Python (3.8+ recommended)<br>
 
-2.Apache Airflow<br> pip install apache-airflow<br>
+2.Apache Airflow<br> <tab><b>pip install apache-airflow</b></tab><br>
 
 3.Docker (for running PostgreSQL)<br>
 
 <h2>🔧 Setup</h2>
-1. Start PostgreSQL via Docker<br>
+1.Start PostgreSQL via Docker<br>
 
-2. Set up Airflow (you can use the default setup or follow Airflow's docs).<br>
+2.Set up Airflow (you can use the default setup or follow Airflow's docs).<br>
 
-3. Trigger the DAG that runs:<br>
+3.Trigger the DAG that runs:<br>
 
 fetch_weather_data<br>
 
